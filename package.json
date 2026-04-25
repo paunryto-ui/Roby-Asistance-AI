@@ -1,1 +1,19 @@
-
+{
+  "name": "roby-bot",
+  "version": "1.0.0",
+  "description": "ROBY - Rapid Autonomous Bot Your-assistant",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@hapi/boom": "^10.0.1",
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.4.5",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
